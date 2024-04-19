@@ -1,0 +1,90 @@
+body {
+    background: url("../images/fond.jpg");
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.form-title {
+    text-align: center;
+    font-family: 'Flamous', sans-serif;
+    font-weight: 300;
+}
+
+.button {
+    height: 30px;
+    float: right;
+    background-color: #e1e1e1;
+    border-radius: 5px;
+}
+
+.button:hover  {
+    background-color: #ffffff;
+}
+
+.form-one {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div {
+    margin: 10px;
+}
+
+label {
+    font-family: 'Flamous', sans-serif;
+    color: black;
+}
+
+input:not(#checkbox){
+    margin-top: 5px;
+    height: 25px;
+    border: black;
+    border-radius: 2px;
+    background-color: white;
+
+}
+
+#date {
+    width: 165px;
+    text-align: center;
+    height: 25px;
+}
+
+
+
+
+.container {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    border: 2px black solid;
+    border-radius: 5px;
+    height: 500px;
+    width: 300px;
+    background-color: rgb(243, 241, 241);
+    opacity: 0.9;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: 'Flamous';
+    src:url("../src/flamous.ttf")  format('truetype');
+}
+
+@font-face {
+    font-family: 'TheoryGank';
+    src:url("../src/TheoryGank.ttf")  format('truetype');
+}
+
+@media(max-width: 600px ){
+    body{
+        background-image: url("../images/books.jpg");
+    }
+    .container {
+        width: 60%;
+    }
+
+}
